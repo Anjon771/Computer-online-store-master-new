@@ -1,0 +1,14 @@
+﻿@model int
+
+
+@if (Model==0)
+{
+    <i class="bi bi-cart"></i>
+}
+else
+{
+    <i class="bi bi-cart"></i>
+
+    <span class='badge badge-warning' id='lblCartCount'> @Model </span>
+}
+
